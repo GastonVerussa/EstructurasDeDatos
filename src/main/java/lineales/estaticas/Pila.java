@@ -3,7 +3,7 @@ package lineales.estaticas;
 public class Pila {
     
     //Variables para determinar atributos de la pila
-    private final Object arreglo[];
+    private final Object[] arreglo;
     private int tope;
     
     //Constante para determinar el tamaño máximo de las pilas

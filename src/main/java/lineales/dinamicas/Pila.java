@@ -59,9 +59,7 @@ public class Pila {
     public void vaciar(){
         
         //  Desapila hasta que este vacía
-        while(!this.esVacia()){
-            desapilar();
-        }
+        tope = null;
     }
     
     // Devuelve una copia exacta de los datos en la estructura original, y respetando el orden de los mismos,
