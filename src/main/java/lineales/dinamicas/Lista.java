@@ -116,7 +116,7 @@ public class Lista {
         //  Recorre la estructura hasta encontrar el elemento buscado o llegar al final
         while(posAux <= longitud && resultado == -1){
             //  Si es el elemento buscado
-            if(aux.getElem() == elem){
+            if(aux.getElem().equals(elem)){
                 //  Asigna su posicion a resultado
                 resultado = posAux;
             } else {
